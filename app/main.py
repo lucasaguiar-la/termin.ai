@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from llama_runner import run_llama
+from .llama_runner import run_llama
 
 app = FastAPI()
 

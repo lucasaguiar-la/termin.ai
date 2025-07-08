@@ -1,9 +1,9 @@
 version: '3.9'
 
 services:
-llama-api:
-  build: .
-  ports:
-    - '8000:8000'
-  volumes:
-    - ./model:/app/models
+  llama-api:
+    build: .
+    ports:
+      - '8000:8000'
+    volumes:
+      - ./models:/app/models
